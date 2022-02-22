@@ -8,8 +8,8 @@ def generate_private_key(n, g):
     k1 = pow(g, x, n)
     k2 = pow(g, y, n)
 
-    print("Alice's private key %s" % (pow(k2, x, n)))
-    print("Bob's private key %s" % (pow(k1, y, n)))
+    print("\nAlice's private key %s" % (pow(k2, x, n)))
+    print("\nBob's private key %s" % (pow(k1, y, n)), "\n")
 
 if __name__ == '__main__':
 
