@@ -1,4 +1,4 @@
-#recursive implementation
+# Recursive implementation
 def gcdRecur(a, b):
 
     if a % b == 0:
@@ -6,7 +6,7 @@ def gcdRecur(a, b):
 
     return gcdRecur(b, a % b)
 
-#iterative implementation
+# Iterative implementation
 def gcdIter(a, b):
 
     while a % b != 0:

@@ -9,14 +9,14 @@ root.title('PDF Extract')
 canvas = tk.Canvas(root, width=600, height=300)
 canvas.grid(columnspan=3, rowspan=3)
 
-#logo
+# logo
 logo = Image.open('/Users/abhijeetsingh/PYTHON/PDF Extract/logo.png')
 logo = ImageTk.PhotoImage(logo)
 logoLabel = tk.Label(image=logo)
 logoLabel.image = logo
 logoLabel.grid(column=1, row=0)
 
-#instructions
+# instructions
 instructions = tk.Label(root, text='Select a PDF file on your computer to extract all its text')
 instructions.grid(columnspan=3, column=0, row=1)
 
@@ -37,7 +37,7 @@ def openFile():
 
          browseText.set("Browse")
 
-#browse button
+# browse button
 browseText = tk.StringVar()
 browseBtn = tk.Button(root, textvariable=browseText, bg='#20bebe', fg='white', height=2, width=15, command=lambda: openFile())
 browseText.set('Browse')

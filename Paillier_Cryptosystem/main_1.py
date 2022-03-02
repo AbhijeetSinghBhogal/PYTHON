@@ -1,3 +1,5 @@
+# Py code implementing the Paillier encryption and decryption
+
 import gmpy2
 from gmpy2 import mpz
 import random
