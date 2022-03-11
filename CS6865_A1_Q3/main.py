@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 xpoints = np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
-ypoints = np.array([395.42, 355.47,332.07,315.47, 302.59, 292.07, 283.17, 275.47, 268.67, 262.59])
+ypoints = np.array([395.42, 355.47, 332.07, 315.47, 302.59, 292.07, 283.17, 275.47, 268.67, 262.59])
 
 plt.plot(xpoints, ypoints, color = 'green')
 
