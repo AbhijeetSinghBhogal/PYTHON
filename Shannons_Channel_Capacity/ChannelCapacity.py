@@ -5,15 +5,15 @@ k = 1.38e-23
 # Temperature (K)
 T = 400
 # Bandwidth (Hz)
-B = 20e6
+B = 2e6
 # Frequency (Hz)
-f = 2.4e9
+f = 1e9
 # Distance (m)
-d = 100
+d = 1000
 # Speed of light (m/s)
 c = 3e8
 # Transmitter power (W)
-P = 0.1
+P = 0.001
 
 print("\n")
 
