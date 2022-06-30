@@ -1,11 +1,11 @@
 import praw
 
-username = ""
-password = ""
+myUsername = ""
+myPassword = ""
 
-var = praw.Reddit(user_agent = "/u/" + username + " deleting all saved posts....")
+var = praw.Reddit(user_agent = "/u/" + myUsername + " deleting all saved posts....")
 
-var.login(username, password, disable_warning = True)
+var.login(myUsername, myPassword, disable_warning = True)
 
 for saved in var.user.get_saved(limit = 1000):
     var.get_submission(str(saved.permalink)).unsave()
