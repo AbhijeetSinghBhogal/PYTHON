@@ -1,7 +1,7 @@
 import praw
 
-username = "StarLord2098"
-password = "@bhij33t#2098"
+username = ""
+password = ""
 
 var = praw.Reddit(user_agent = "/u/" + username + " deleting all saved posts....")
 
