@@ -43,7 +43,7 @@ plt.title("Line Distance vs Transmission Speed")
 plt.grid()
 
 # PNG, JPG, PDF, etc.
-plt.savefig('/Users/abhijeetsingh/PYTHON/University_Assignments/CS6865_A2_Q1/Assignment_2_Question_1_Using_Matplotlib.png')
+plt.savefig('/Users/abhijeetsingh/PYTHON/CS6865_A2_Q1/Assignment_2_Question_1_Using_Matplotlib.png')
 
 plt.show()
 
