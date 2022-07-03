@@ -1,5 +1,7 @@
 # Py code implementing the 1-server computational PIR for a non-binary database using Paillier encryption and decryption (Tutorial 7)
 
+# Conda environment "env_testing"
+
 import numpy as np
 import gmpy2
 from gmpy2 import mpz

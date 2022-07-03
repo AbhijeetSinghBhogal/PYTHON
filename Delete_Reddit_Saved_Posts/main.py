@@ -1,3 +1,5 @@
+# Conda environment "env_praw"
+
 import praw
 
 myUsername = ""

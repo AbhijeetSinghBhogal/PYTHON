@@ -4,6 +4,8 @@ import PyPDF2
 from PIL import Image, ImageTk
 from tkinter.filedialog import askopenfile
 
+# Conda environment "env_pypdf2"
+
 root = tk.Tk()
 root.title('PDF Extract')
 canvas = tk.Canvas(root, width=600, height=300)

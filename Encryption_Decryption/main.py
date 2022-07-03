@@ -1,5 +1,7 @@
 from cryptography.fernet import Fernet
 
+# Conda environment "env_crypto"
+
 def main():
     
     ##### KEY GENERATION #####

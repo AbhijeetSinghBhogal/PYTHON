@@ -1,5 +1,7 @@
 ## Py code implementing the 1-out-of-n OT protocol using RSA encryption and decryption
 
+## Conda environment "env_testing"
+
 import gmpy2
 from gmpy2 import mpz
 import math

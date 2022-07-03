@@ -1,5 +1,8 @@
 ## Py code implementing the RSA encryption and decryption
 
+## Conda environment "env_sympy"
+## "env_sympy" contains gmpy2 as well
+
 import random
 from random import randint
 import gmpy2

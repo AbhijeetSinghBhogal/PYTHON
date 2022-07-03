@@ -1,5 +1,7 @@
 import matplotlib.pylab as plt
 
+# Conda environment "env_testing"
+
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 def frequency_analysis(text):

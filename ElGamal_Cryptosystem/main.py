@@ -1,5 +1,7 @@
 # Py code implementing the ElGamal encryption and decryption
 
+# Conda environment "env_gmpy2"
+
 import gmpy2
 from gmpy2 import mpz
 import random

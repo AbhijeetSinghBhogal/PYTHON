@@ -1,5 +1,7 @@
 # Python code to perform steganography using the Stegano module.
 
+# Conda environment "env_stegano"
+
 import stegano
 from stegano import lsb
 

@@ -1,3 +1,5 @@
+## Conda environment "env_testing"
+
 from turtle import color
 import matplotlib.pyplot as plt
 import numpy as np
@@ -18,6 +20,6 @@ plt.title("Channel Capacity vs Distance")
 plt.grid()
 
 # PNG, JPG, PDF, etc.
-plt.savefig('/Users/abhijeetsingh/PYTHON/CS6865_A1_Q3/Assignment_1_Question_3_Using_Matplotlib.png')
+plt.savefig('/Users/abhijeetsingh/PYTHON/University_Assignments/CS6865_A1_Q3/Assignment_1_Question_3_Using_Matplotlib.png')
 
 plt.show()
